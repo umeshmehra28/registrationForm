@@ -1,0 +1,53 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#form {
+  margin: 2% 30%;
+}
+
+.container-fluid {
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+table {
+  border-radius: 4px;
+  border-collapse: separate;
+  border-spacing: 6px;
+}
+
+thead {
+  text-align: center;
+  background: #ffb500;
+}
+tbody {
+  text-align: center;
+  background: yellowgreen;
+}
+th {
+  border-radius: 4px;
+}
+td {
+  border-radius: 4px;
+}
+.btn {
+  padding: 4px 10px;
+  font-size: 14px;
+}
+@media screen and (max-width: 420px) {
+  #form {
+    margin: 4%;
+  }
+  .container-fluid {
+    width: 100%;
+    margin-top: 26px;
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+  }
+}
